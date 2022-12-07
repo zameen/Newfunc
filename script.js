@@ -1,3 +1,4 @@
 Array.prototype.unique = function(){
-    return [...new Set(this)];
+    let ans = [...new Set(this)];
+    return ans;
 };
